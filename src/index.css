@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111827;
+}
+/* CSS untuk menonaktifkan scroll pada body saat modal terbuka */
+.no-scroll {
+  overflow: hidden;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Menyembunyikan scrollbar */
+}
